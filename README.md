@@ -23,7 +23,8 @@ defined('GEMALL_IMG_DOMAIN') or define('GEMALL_IMG_DOMAIN', '**');//用与其他
 # 三、编写七牛管理类
 namespace common\widgets\qiniu;
 
-# 四、Ueditor组件下的UeditorAciton和Uploader类的改写（因为要对其源码进行改写，建议不要composer安装，如果非要的话，建议重写这两个类）
+# 四、Ueditor组件下的UeditorAciton和Uploader类的改写
+（因为要对其源码进行改写，建议不要composer安装，如果非要的话，建议重写这两个类）
 UeditorAction主要是修改获取获取已上传的方法，改成从七牛获取上传文件列表
 Uploader主要是修改几种上传文件列表的方法，上传到七牛空间中
 
