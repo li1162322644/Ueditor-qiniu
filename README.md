@@ -1,7 +1,7 @@
 # Ueditor-七牛
-#一、composer七牛的官方sdk
+# 一、composer七牛的官方sdk
 composer require qiniu/php-sdk
-#二、编写七牛的集成类包，并注册为组件
+# 二、编写七牛的集成类包，并注册为组件
 在main.php 中注册
 ```php
 
