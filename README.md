@@ -5,6 +5,7 @@ composer require qiniu/php-sdk
 在main.php 中注册
 ```php
 
+
 defined('IMG_DOMAIN') or define('IMG_DOMAIN', '**');
 defined('GEMALL_IMG_DOMAIN') or define('GEMALL_IMG_DOMAIN', '**');//用与其他平台的共享图片
 
